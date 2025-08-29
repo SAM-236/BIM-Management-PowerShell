@@ -40,7 +40,7 @@ function Cleanup-CollaborationCache {
     }
 
     $targetDate = (Get-Date).AddDays(-$DaysBack)
-    $years = 2019..2025
+    $years = 2019..2026
 
     $totalFilesDeleted = 0
     $totalLayer2FoldersDeleted = 0
